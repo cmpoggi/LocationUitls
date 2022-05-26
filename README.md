@@ -18,7 +18,7 @@ LocationUtils locationUtils = new LocationUtils(context, actAddLocation.this,
                 getString("OK text for dialog"),
                 getString("Cancel text for dialog"),
                 getString("Location disabled text for dialog"),
-                this::getWeatherData); //listener method will pass the two coordinates as double (latitude, longitude)
+                this::listenerMethod); //listener method will pass the two coordinates as double (latitude, longitude)
 locationUtils.getCoordinates();
 ```
 If the location setting is disabled, it will display a dialog to enable it
