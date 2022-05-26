@@ -32,7 +32,7 @@ public class LocationUtils {
     double acquiredLon;
     double acquiredLat;
     private final onLocationListener mListener;
-    String TAG = "ClimatelyFree";
+    String TAG = "YOURDEBUGTAG";
 
     LocationManager lm;
 
