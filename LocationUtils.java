@@ -137,7 +137,7 @@ public class LocationUtils {
                             Manifest.permission.ACCESS_NETWORK_STATE}, 1);
                     Log.d(TAG, "locateByGPS lat: " + latitude + " long: " + longitude);
 
-                    //mosca devolver con un callback los valores de la latitud y longitud
+                    //if we have the coordinates we execute the callback
                     setCoordinates(latitude, longitude);
                 }
             }
